@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "types": [
+      "vitest",
+      "vite/client"
+    ]
+  },
+  "exclude": ["dist", "coverage", "node_modules", "**/*.md"]
+}
